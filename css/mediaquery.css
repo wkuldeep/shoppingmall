@@ -1,7 +1,7 @@
 @media only screen and (max-width: 676px){
 	/* Header Wrapper Start */
 	.navbar-expand-md .navbar-nav .nav-item .nav-link{
-		font-size: 	12px;
+		font-size: 12px;
 	}
 	.navbar-brand{
 		font-size: 22px;
@@ -11,32 +11,6 @@
 	.carousel-caption{
 		margin-bottom: 0px;
 	}
-	.carousel-caption a{
-		padding: 10px 20px;
-		line-height: 50px;
-		font-size: 15px;
-	}
-	.carousel-caption h3{
-		font-size: 18px;
-	}
-	.carousel-caption p{
-		font-size: 13px;
-	}
-	.slide .carousel-control-prev, .slide .carousel-control-next {
-		width: 42px;
-		height: 40px;	
-	}
-	
-	/* register start */
-		.register-info ul{
-		padding-left: 10px ;
-	}
-	.register-info ul li{
-		float: left;
-		margin: 10px 10px 10px 0px;
-	}
-}
-@media only screen and (min-width: 675px){
 	.carousel-caption h3{
 		font-size: 16px;
 	}
@@ -47,5 +21,31 @@
 		padding: 5px 10px;
 		line-height: 30px;
 		font-size: 12px;
+	}	
+	.slide .carousel-control-prev, .slide .carousel-control-next {
+		width: 42px;
+		height: 40px;	
+	}
+	
+	/* register start */
+	.register-info ul{
+		padding-left: 10px ;
+	}
+	.register-info ul li{
+		float: left;
+		margin: 10px 10px 10px 0px;
+	}
+}
+@media only screen and (min-width: 676px) and (max-width: 992px){
+	.carousel-caption h3{
+		font-size: 22px;
+	}
+	.carousel-caption p{
+		font-size: 14px;
+	}
+	.carousel-caption a{
+		padding: 10px 20px;
+		line-height: 50px;
+		font-size: 15px;
 	}
 }
