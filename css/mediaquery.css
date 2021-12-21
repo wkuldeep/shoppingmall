@@ -36,3 +36,16 @@
 		margin: 10px 10px 10px 0px;
 	}
 }
+@media only screen and (min-width: 675px){
+	.carousel-caption h3{
+		font-size: 16px;
+	}
+	.carousel-caption p{
+		font-size: 12px;
+	}
+	.carousel-caption a{
+		padding: 5px 10px;
+		line-height: 30px;
+		font-size: 12px;
+	}
+}
