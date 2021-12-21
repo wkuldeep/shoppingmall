@@ -36,7 +36,7 @@
 		margin: 10px 10px 10px 0px;
 	}
 }
-@media only screen and (max-width: 992px){
+@media only screen and (min-width: 675px) and (max-width: 992px){
 	.carousel-caption h3{
 		font-size: 22px;
 	}
